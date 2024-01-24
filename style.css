@@ -355,3 +355,52 @@ display: none;
     font-size: calc(18rem/16);
     line-height: 35px;
 }
+
+.footer-main .footer-hero {
+    margin-top: 250px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 30% repeat(4, 1fr);
+}
+
+.footer-main .footer-hero .footer-logo p{
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    color: #858A8F;
+    width: calc(282rem/16);
+    margin-bottom: 2rem;
+}
+
+.footer-main .footer-hero .footer-logo .social-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-main .footer-hero .footer-section h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: calc(29rem/16);
+    color: #333333;
+    margin-bottom: 1.7rem;
+}
+
+.footer-main .footer-hero .footer-section ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.18rem;
+    color: #858A8F;
+}
+
+
+.footer-main .copyright {
+    margin-top: 5.4rem;
+    margin-bottom: 5.4rem;
+    font-weight: 500;
+    font-size: 1.15rem;
+    line-height: 1.4rem;
+    color: #858A8F;
+}
+
