@@ -7,44 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <img src="logo.svg" class="logo" alt="logo">
+    <div class="container">
+
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="logo.svg" class="logo" alt="logo">
+            <h2>Logo.</h2>
+        </div>
         <ul>
             <li><span>Home</span><img src="icon-chevron-down.svg"></li>
             <li><span>Pages</span><img src="icon-chevron-down.svg"></li>
             <li><span>Blog</span><img src="icon-chevron-down.svg"></li>
             <li><span>Portfolio</span><img src="icon-chevron-down.svg"></li>
-
+            
         </ul>
         <button type="button" class="btn">Get Started</button>
         <img src="menu.svg" class="menu">
     </nav>
     
     <div class="section">
-            <div class="hero-container">
-                <h1>Introducing a new music app Move Music!</h1>
-                <p>Try the Movie Music app we are sure that it will expand the boundaries of your musical taste. You can also try the extended version for free for 14 days.</p>
-                <button type="button" class="btn">Start 14 Days Free Trial</button>
-                <span>No credit card enquired</span>
+        <div class="hero-container">
+            <h1>Introducing a new music app Move Music!</h1>
+            <p>Try the Movie Music app we are sure that it will expand the boundaries of your musical taste. You can also try the extended version for free for 14 days.</p>
+            <button type="button" class="btn">Start 14 Days Free Trial</button>
+            <span>No credit card enquired</span>
+        </div>
+        <div class="hero-image">
+            <div class="popover-img-1">
+                <div class="popover">
+                    <img src="checkmark.svg">
+                    <p>Listen to music even when there is no Internet!</p>
+                </div>
             </div>
-            <div class="hero-image">
-                <div class="popover-img-1">
-                    <div class="popover">
-                        <img src="checkmark.svg">
-                        <p>Listen to music even when there is no Internet!</p>
-                    </div>
-                </div>
-                <div class="popover-img-2">
-
-                    <div class="popover-2">
-                        <img src="checkmark.svg">
-                        <p>Import your library from another app!</p>
-                    </div>
-                </div>
-                <img src="Components-10.png" class="background-img">
-                <img src="iPhone_Mockup-3.png" class="iphone-img">
+            <div class="popover-img-2">
                 
+                <div class="popover-2">
+                    <img src="checkmark.svg">
+                    <p>Import your library from another app!</p>
+                </div>
             </div>
+            <img src="Components-10.png" class="background-img">
+            <img src="iPhone_Mockup-3.png" class="iphone-img">
+            
+        </div>
     </div>
     <div class="partners">
         <span>Companies that have already tried our app</span>
@@ -66,32 +71,28 @@
             <p>Every week, we create new playlists with current music that most people listen to. Join them and be in the trend of new music.</p>
             <div class="card-1">
                 <div class="card-1-img">
-                    <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="37" cy="37" r="37" fill="#E5F1FF"/>
-                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M21 37.5C21 32.9437 22.6109 29.0546 25.8327 25.8327C29.0546 22.6109 32.9437 21 37.5 21C42.0564 21 45.9454 22.6109 49.1673 25.8327C52.3891 29.0546 54 32.9437 54 37.5C54 42.0564 52.3891 45.9454 49.1673 49.1673C45.9454 52.3891 42.0564 54 37.5 54C32.9437 54 29.0546 52.3891 25.8327 49.1673C22.6109 45.9454 21 42.0564 21 37.5Z" fill="#377DFF"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M28.0733 41.572C27.5729 40.8214 27.7758 39.8073 28.5263 39.307C29.2769 38.8066 30.2909 39.0094 30.7913 39.76C32.6813 42.595 34.9113 43.933 37.5993 43.933C40.2873 43.933 42.5173 42.595 44.4073 39.76C44.9077 39.0094 45.9218 38.8066 46.6723 39.307C47.4229 39.8073 47.6257 40.8214 47.1253 41.572C44.6593 45.272 41.4443 47.199 37.5993 47.199C33.7543 47.199 30.5393 45.271 28.0733 41.572Z" fill="#377DFF"/>
-                    </svg>
+                    <img src="smile.svg">
                 </div>
                 <div class="card-1-content">
                     <h3>We adapt to you</h3>
                     <p>We analyze your media library and create playlists that match your mood and music preference.</p>
                 </div>
             </div>
-
+            
             <div class="card-1">
                 <div class="card-1-img">
                     <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="37" cy="37" r="37" fill="#EAFAF3"/>
                         <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M36.3433 25.0408H48.1183C49.5113 25.0414 50.6402 26.1707 50.6402 27.5637C50.6402 28.9567 49.5114 30.0861 48.1184 30.0868H36.3433C34.9499 30.0868 33.8203 28.9572 33.8203 27.5638C33.8203 26.1704 34.9499 25.0408 36.3433 25.0408ZM26.2507 45.2258H48.1177C49.5106 45.2264 50.6395 46.3557 50.6396 47.7487C50.6396 49.1417 49.5107 50.2711 48.1178 50.2718H26.2507C24.8577 50.2712 23.7288 49.1418 23.7288 47.7488C23.7287 46.3559 24.8576 45.2264 26.2505 45.2258L26.2507 45.2258ZM26.2507 35.1338H48.1177C49.5111 35.1338 50.6407 36.2634 50.6407 37.6568C50.6407 39.0502 49.5111 40.1798 48.1177 40.1798H26.2507C25.349 40.1802 24.5157 39.6994 24.0647 38.9186C23.6138 38.1378 23.6138 37.1757 24.0648 36.3949C24.5158 35.6141 25.3491 35.1333 26.2508 35.1338L26.2507 35.1338Z" fill="#2DCA8C"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M25.1225 32.4549L29.9575 28.2369C30.1401 28.0772 30.2448 27.8464 30.2448 27.6039C30.2448 27.3613 30.1401 27.1305 29.9575 26.9709L25.1285 22.7269C24.8805 22.5062 24.526 22.4521 24.2235 22.5887C23.921 22.7252 23.7271 23.0269 23.7285 23.3589L23.7285 31.8179C23.7284 32.1478 23.9212 32.4473 24.2214 32.5838C24.5217 32.7203 24.8741 32.6687 25.1226 32.4518L25.1225 32.4549Z" fill="#2DCA8C"/>
-                        </svg>                        
+                    </svg>                        
                 </div>
                 <div class="card-1-content">
                     <h3>Your music your rules</h3>
                     <p>You can import your playlist from other music platforms and not waste time adding music manually.</p>
                 </div>
             </div>
-
+            
         </div>
     </div>
     <div class="section" id="feature-2">
@@ -104,23 +105,23 @@
                         <circle cx="37" cy="37" r="37" fill="#FFF2D8"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M31.8926 47.376C31.5926 49.431 29.4976 51.024 26.9526 51.024C24.2046 51.024 21.9766 49.168 21.9766 46.878C21.9766 44.588 24.2046 42.731 26.9526 42.731C27.514 42.7299 28.0727 42.8093 28.6116 42.967L28.6116 26.031C28.6017 25.1947 29.1295 24.4464 29.9206 24.175L39.4586 21.258C40.0369 21.0854 40.6629 21.2009 41.1416 21.5683C41.6204 21.9358 41.8937 22.5107 41.8766 23.114V26.031C41.7839 26.927 41.1056 27.6516 40.2176 27.803C39.1409 28.0603 36.3766 28.6133 31.9246 29.462V46.962C31.9266 47.1006 31.9159 47.2392 31.8926 47.376L31.8926 47.376Z" fill="#FFBE3D"/>
                         <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M43.5382 37.755V34.438C43.5234 33.8358 43.8363 33.2729 44.3555 32.9674C44.8747 32.6619 45.5187 32.6619 46.038 32.9674C46.5572 33.2729 46.87 33.8358 46.8552 34.438V37.755H50.1722C51.0723 37.7771 51.7905 38.5132 51.7905 39.4135C51.7905 40.3139 51.0723 41.0499 50.1722 41.072H46.8552V44.389C46.8331 45.2891 46.0971 46.0073 45.1967 46.0073C44.2964 46.0073 43.5603 45.2891 43.5382 44.389L43.5382 41.072H40.2212C39.619 41.0868 39.0561 40.774 38.7506 40.2548C38.4451 39.7355 38.4451 39.0915 38.7506 38.5723C39.0561 38.0531 39.619 37.7402 40.2212 37.755L43.5382 37.755Z" fill="#FFBE3D"/>
-                        </svg>
-                        
+                    </svg>
+                    
                 </div>
                 <div class="card-1-content">
                     <h3>Downloading in the app</h3>
                     <p>Owners of the regular version of Move Music can only download music in the app and listen to it without the Internet.</p>
                 </div>
             </div>
-
+            
             <div class="card-1">
                 <div class="card-1-img">
                     <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="37" cy="37" r="37" fill="#FFE3DE"/>
                         <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M29.7398 21.083C29.17 21.0819 28.6231 21.3076 28.2198 21.7101C27.8165 22.1127 27.5898 22.6592 27.5898 23.229V51.561C27.5898 52.132 27.8166 52.6786 28.2202 53.0812C28.6237 53.4838 29.1708 53.7093 29.7408 53.708L43.4728 53.708C44.658 53.708 45.6188 52.7472 45.6188 51.562V23.229C45.6188 22.0438 44.658 21.083 43.4728 21.083H29.7398Z" fill="#FF715B"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M29.7376 21.0831C28.5524 21.0831 27.5916 22.0439 27.5916 23.2291V51.5611C27.5916 52.7463 28.5524 53.7071 29.7376 53.7071H43.4746C44.6598 53.7071 45.6206 52.7463 45.6206 51.5611V23.2291C45.6206 22.0439 44.6598 21.0831 43.4746 21.0831L29.7376 21.0831ZM29.7376 18.5071H43.4746C46.0825 18.5071 48.1966 20.6212 48.1966 23.2291V51.5611C48.1966 54.169 46.0825 56.2831 43.4746 56.2831H29.7376C27.1297 56.2831 25.0156 54.169 25.0156 51.5611V23.2291C25.0156 20.6212 27.1297 18.5071 29.7376 18.5071ZM32.3141 19.7951H40.8991C41.3735 19.7951 41.7581 20.1797 41.7581 20.6541V22.3701C41.7581 22.8445 41.3735 23.2291 40.8991 23.2291H32.3141C31.8397 23.2291 31.4551 22.8445 31.4551 22.3701L31.4551 20.6531C31.4556 20.1791 31.84 19.7951 32.314 19.7951L32.3141 19.7951Z" fill="#FF715B"/>
-                        </svg>
-                                               
+                    </svg>
+                    
                 </div>
                 <div class="card-1-content">
                     <h3>Downloading to your smartphone</h3>
@@ -135,7 +136,7 @@
     </div>
     <footer class="footer-main">
         <div class="footer-hero">
-
+            
             <div class="footer-logo">
                 <img src="footer-logo.svg" alt="logo">
                 <p>Move - Multipurpose Design Template will help you develop your website design.</p>
@@ -166,7 +167,7 @@
                 </ul>
             </div>
             <div class="footer-section">
-            <h4>Blog</h4>
+                <h4>Blog</h4>
             <ul>
                 <li>Blog Listing</li>
                 <li>Blog Article</li>
@@ -186,5 +187,6 @@
         </div>
     </footer>
     
+</div>
 </body>
 </html>
