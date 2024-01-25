@@ -513,6 +513,7 @@ display: none;
     display: flex;
     gap: 2rem;
     padding-bottom: 2rem;
+    width: 18rem;
 }
 
 
