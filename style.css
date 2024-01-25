@@ -402,6 +402,10 @@ display: none;
     align-items: flex-start;
 }
 
+.partners-img {
+    height: auto;
+    width: clamp(5rem,12.778vw,11.5rem);
+}
 
 
 #feature-2 #feature-2-img .background-img {
