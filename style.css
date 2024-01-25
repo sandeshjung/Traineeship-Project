@@ -386,7 +386,7 @@ display: none;
 
 @media screen and (max-width:600px) {
     .section #feature-1-img .iphone-img{
-        left: 26%;
+        left: 22%;
     }
     .section .hero-container p {
         width: 20rem;
